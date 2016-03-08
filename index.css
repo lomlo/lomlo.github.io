@@ -1,0 +1,100 @@
+
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  color:white;
+}
+
+div.jumbotron {
+  background-color: #33CCFF;
+  background-image:url(https://images.unsplash.com/photo-1449247666642-264389f5f5b1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=234573047d2009ab51c214a76b8dfe69);
+  background-size:cover;
+}
+
+div.jumbotron h1, div.jumbotron p  {
+  color: white;
+  font: Roboto, times, Open Sans;
+  padding: 10px;
+}
+
+div.jumbotron {
+  padding-top:40px;
+}
+
+div.jumbotron h1 {
+  font-size:50px;
+}
+
+div.jumbotron p {
+  padding-bottom:40px;
+  font-size:20px;
+}
+
+.nav-pills li a {
+  color:white;
+  font-size: 10px;
+  background-color:black;
+}
+
+.btn.btn-primary {
+  background-color:black;
+  border:1px solid #3F8C86;
+  }
+  
+.support h4 {
+  margin:40px;
+}
+
+.quote {
+  font-size:50px;
+}
+
+#portfolio {
+  background-image:url(https://unsplash.com/photos/bClr95glx6k);
+  background-color:blue;
+}
+
+#portfolio h2 {
+  background:transparent;
+  color:white;
+}
+
+.support-2 h2{
+  border-bottom: 1px solid grey;
+  padding: 20px 0px;
+}
+
+.support-2 .row {
+  margin:30px 0px;
+  padding-bottom:30px;
+  border-bottom:1px solid grey;
+}
+
+.support-2 p {
+  color:blue;
+  background-color:grey;
+  padding:60px 0px;
+}
+
+.inspiration {
+  background-color:black;
+}
+
+.img-responsive {
+  margin-bottom:20px;
+}
+
+.adjust-width {
+  height:875;
+  width:1400;
+  text-align:center;
+  vertical-align:center;
+}
+
+.footer {
+  background-image:url(https://unsplash.com/photos/bClr95glx6k);
+  background-color:black;
+}
