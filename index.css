@@ -1,0 +1,65 @@
+
+.jumbotron {
+	background: url(images/jumbo.jpg);
+	background-size: cover;
+	background size: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+}
+
+
+#cover .nav {
+	width: 85%;
+	height: 40px;
+	margin: 0 auto;
+	margin-top:-10px;
+	background-color:white;
+	position: relative;
+}
+
+
+#logo {
+	font-family: 'Playfair Display', serif ; 
+	font-weight: 700; 
+	font-style: italic;
+	margin: 3px 0 0 20px;
+}
+
+.inline {
+	font-size:10px;
+	left:170px;
+	bottom:2px;
+	position: absolute;
+}
+
+.inline li{
+	display: inline;
+	top: 10px;
+	margin-left: 10px;
+	font-family:'PT Serif', serif;
+	font-weight: 700;
+}
+
+.green {
+	color:#96c218;
+}
+
+#header h1 {
+	text-align: center;
+	color:white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	margin-top: 90px;
+}
+
+#header p {
+	text-align: center;
+	color:white;
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 16px ;
+	font-weight: 100;
+	margin-top: 20px;
+}
