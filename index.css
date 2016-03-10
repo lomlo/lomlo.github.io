@@ -5,10 +5,11 @@
 	background size: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 900px;
 	width: 100%;
 }
 
+/*navigation needs redoing to collapse on mobile devices*/
 
 #cover .nav {
 	width: 85%;
@@ -27,6 +28,8 @@
 	margin: 3px 0 0 20px;
 }
 
+
+
 .inline {
 	font-size:10px;
 	left:170px;
@@ -38,14 +41,16 @@
 	display: inline;
 	top: 10px;
 	margin-left: 10px;
+	margin-right: 0.1%;
 	font-family:'PT Serif', serif;
 	font-weight: 700;
 }
 
+
 .green {
 	color:#96c218;
 }
-
+/*header and small text beneth*/
 #header h1 {
 	text-align: center;
 	color:white;
@@ -63,3 +68,43 @@
 	font-weight: 100;
 	margin-top: 20px;
 }
+
+/*example and button in a div*/
+#example {
+	text-align: center;
+	margin: 0;
+}
+
+#example img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+/*replace button with image and use href*/
+#example button {
+	margin: 10px auto;
+	display: block;
+	padding: 10px 35px;
+	border-radius: 0px;
+	font-style: 'Source Sans Pro', sans-serif;
+}
+
+.content {
+	text-align: center;
+}
+
+.content h2 {
+	margin: 90px 0 50px 0;
+	font-family: 'Playfair Display', sans-serif;
+	font-size:50px;
+	font-weight: 1500;
+}
+
+.content p {
+	margin-bottom: 60px
+}
+
+
+
+
