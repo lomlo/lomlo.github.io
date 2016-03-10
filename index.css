@@ -9,7 +9,53 @@
 	width: 100%;
 }
 
-/*navigation needs redoing to collapse on mobile devices*/
+
+
+/*HEADER and small text beneth -----------------------------------------------------------------------*/
+#header h1 {
+	text-align: center;
+	color:white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	margin-top: 90px;
+}
+
+#header p {
+	text-align: center;
+	color:white;
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 16px ;
+	font-weight: 100;
+	margin-top: 20px;
+}
+
+/*example and button in a div*/
+#example {
+	text-align: center;
+	margin: 0;
+}
+
+/*redesign the spacing of the png */
+
+#example img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+
+#btn1 {
+	margin: 10px auto;
+	display: block;
+	padding: 10px 35px;
+	border-radius: 0px;
+	font-style: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+
+
+/*navigation HEAD-----------------------------------------------------------------------------------*/
 
 #cover .nav {
 	width: 85%;
@@ -50,60 +96,136 @@
 .green {
 	color:#96c218;
 }
-/*header and small text beneth*/
-#header h1 {
+
+
+
+
+
+/* place a div for grey line with desired width?---------------------------------------------------*/
+.content, .content2, .content3 {
 	text-align: center;
-	color:white;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 50px;
-	font-weight: 900;
-	margin-top: 90px;
+	padding-bottom: 70px;
+	border-bottom: 1px solid #666666;
 }
 
-#header p {
-	text-align: center;
-	color:white;
+
+
+
+.content h2, .content2 h2, .content3 h2 {
+	margin: 90px 0 50px 0;
 	font-family: 'Playfair Display', sans-serif;
-	font-size: 16px ;
-	font-weight: 100;
-	margin-top: 20px;
+	font-size:55px;
+	font-weight: 900;
 }
 
-/*example and button in a div*/
-#example {
-	text-align: center;
-	margin: 0;
+.content p, .content2 p {
+	margin-bottom: 60px;
+	font-family:'PT Serif', serif;
+	font-size:19px;
+	color:#666666;
+	line-height: 200%;
 }
 
-#example img {
-	display: block;
-	margin: 0 auto;
-	padding-bottom: 40px;
-}
-
-/*replace button with image and use href*/
-#example button {
+#btn2{
 	margin: 10px auto;
 	display: block;
 	padding: 10px 35px;
 	border-radius: 0px;
 	font-style: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+	color:white;
+	background-color: #96c218;
 }
 
-.content {
+.row-centered p{
+	
 	text-align: center;
+	
 }
 
-.content h2 {
-	margin: 90px 0 50px 0;
-	font-family: 'Playfair Display', sans-serif;
-	font-size:50px;
-	font-weight: 1500;
+/*footer-------------------------------------------------------------------------------------------*/
+.footer {
+	height: 300px;
+	width: 100%;
+	background-color:#2d2d2d;
 }
 
-.content p {
-	margin-bottom: 60px
+
+/*navigation SIDE BAR-----------------------------------------------------------------------------------*/
+
+
+#wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
+
+label {
+  cursor: pointer;
+}
+label:focus {
+  outline: none;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 240px;
+  height: 100%;
+  transform: translate3d(-240px, 0, 0);
+  transition: transform 0.35s;
+}
+.menu label.menu-toggle {
+  position: absolute;
+  right: -60px;
+  width: 60px;
+  height: 60px;
+  line-height: 0px;
+  display: block;
+  padding: 0;
+  text-indent: -9999px;
+  background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
+}
+.menu ul li > label {
+  background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png) 95% 50%/16px 16px no-repeat;
+}
+.menu ul li a, .menu ul li label {
+  display: block;
+  text-align: center;
+  padding: 0 20px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #000;
+}
+.menu ul li a:hover, .menu ul li label:hover {
+  color: #666;
+}
+
+/* hide inputs */
+.menu-checkbox {
+  display: none;
+}
+
+/* fade in checked menu */
+.menu-checkbox:checked + .menu {
+  transform: translate3d(0, 0, 0);
+}
+
+
+/* hide inputs */          
+.menu-checkbox
+  display: none
+
+
+    
+/* fade in checked menu */    
+.menu-checkbox:checked + .menu
+  transform: translate3d(0, 0, 0)
+
+
 
 
 
