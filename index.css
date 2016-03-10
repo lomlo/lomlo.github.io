@@ -11,6 +11,47 @@
 
 
 
+
+
+/*NAVIGATION HEAD TOP-----------------------------------------------------------------------------------*/
+
+#cover .nav {
+	width: 85%;
+	height: 40px;
+	margin: 0 auto;
+	margin-top:-10px;
+	background-color:white;
+	position: relative;
+}
+
+
+#logo {
+	font-family: 'Playfair Display', serif ; 
+	font-weight: 700; 
+	font-style: italic;
+	margin: 3px 0 0 20px;
+}
+
+.inline {
+	font-size:10px;
+	left:20%;
+	bottom:6%;
+	position: absolute;
+}
+
+.inline li{
+	display: inline;
+	top: 10px;
+	margin-left: 10px;
+	font-family:'PT Serif', serif;
+	font-weight: 700;
+}
+
+.green {
+	color:#96c218;
+}
+
+
 /*HEADER and small text beneth -----------------------------------------------------------------------*/
 #header h1 {
 	text-align: center;
@@ -55,53 +96,8 @@
 }
 
 
-/*navigation HEAD-----------------------------------------------------------------------------------*/
 
-#cover .nav {
-	width: 85%;
-	height: 40px;
-	margin: 0 auto;
-	margin-top:-10px;
-	background-color:white;
-	position: relative;
-}
-
-
-#logo {
-	font-family: 'Playfair Display', serif ; 
-	font-weight: 700; 
-	font-style: italic;
-	margin: 3px 0 0 20px;
-}
-
-
-
-.inline {
-	font-size:10px;
-	left:170px;
-	bottom:2px;
-	position: absolute;
-}
-
-.inline li{
-	display: inline;
-	top: 10px;
-	margin-left: 10px;
-	margin-right: 0.1%;
-	font-family:'PT Serif', serif;
-	font-weight: 700;
-}
-
-
-.green {
-	color:#96c218;
-}
-
-
-
-
-
-/* place a div for grey line with desired width?---------------------------------------------------*/
+/* CONTENT place a div for grey line with desired width?---------------------------------------------------*/
 .content, .content2, .content3 {
 	text-align: center;
 	padding-bottom: 70px;
@@ -153,6 +149,11 @@
 
 /*navigation SIDE BAR-----------------------------------------------------------------------------------*/
 
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 #wrapper {
   position: absolute;
@@ -199,6 +200,7 @@ label:focus {
   line-height: 60px;
   text-decoration: none;
   color: #000;
+  list-style: none;
 }
 .menu ul li a:hover, .menu ul li label:hover {
   color: #666;
@@ -225,7 +227,13 @@ label:focus {
 .menu-checkbox:checked + .menu
   transform: translate3d(0, 0, 0)
 
+/*MEDIA---------------------------------------------------------------------------------------------*/
 
+@media  (max-width: 500px) {
+.jumbotron {
+		display: none;
+	}
+}
 
 
 
