@@ -258,6 +258,28 @@
 	}
 }
 
+
+/*Media for the top navigation*/
+
+@media (min-width: 600px) and (max-width: 1000px) {
+	.inline  {
+		left:30%;
+	}
+}
+
+@media (min-width: 1001px) {
+	.inline  {
+		left:50%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.inline  {
+		left:60%;
+	}
+}
+
+
 /*navigation SIDE BAR-----------------------------------------------------------------------------------*/
 
 /* reset */
