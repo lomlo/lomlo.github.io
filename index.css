@@ -139,12 +139,61 @@
 	
 }
 
+#emailbox {
+	height: 42px;
+	width: 300px;
+	margin-top:70px;
+	margin-bottom: 70px;
+}
+
+#submitbtn {
+	border-radius: 0px;
+	height: 42px;
+	width: 178px;
+	background-color: #96c218;
+	font-style: 'Source Sans Pro', sans-serif;
+	color: white;
+	border:none;
+	margin-left: -8px;
+	margin-top:70px;
+	margin-bottom: 70px;
+}
+
+
+
 /*footer-------------------------------------------------------------------------------------------*/
 .footer {
 	height: 300px;
 	width: 100%;
 	background-color:#2d2d2d;
+	text-align: center;
 }
+
+#logofooter {
+	font-family: 'Playfair Display', serif ; 
+	font-weight: 700; 
+	font-size: 21px;
+	font-style: italic;
+	text-align:left ;
+	color: white;
+	position: relative;
+	left:50px;
+	top: 15px;
+}
+
+.footertitle {
+	margin-bottom: 20px;
+}
+
+.footerstyle {
+	color:white;
+}
+
+.footerstyle ul {
+	list-style: none;
+}
+
+
 
 /*content2 margin deletion*/
 
@@ -152,6 +201,63 @@
 	padding:0;
 
 }
+
+/*MEDIA---------------------------------------------------------------------------------------------*/
+
+@media  (max-width: 700px) {
+	/*styles for small screens*/
+  .inline  {
+		display: none;
+	}
+
+	#cover .nav {
+		width: 70%;
+	}
+
+	.footer {
+		height:600px;
+	}
+
+	.lastline {
+		margin-bottom: 40px;
+	}
+
+	#logofooter {
+		left:50px;
+		top: 25px;
+}
+
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+	/*styles for between small and medium screens*/
+	.footer {
+		height:600px;
+	}
+
+	.lastline {
+		margin-bottom: 40px;
+	}
+
+	#logofooter {
+		left:50px;
+		top: 25px;
+	}
+}	
+
+@media (min-width: 1001px) {
+	/*main screen size*/
+	#logofooter {
+		left:0px;
+		right:40px;
+		top: 20px;
+	}	
+
+	.footerstyle {
+		margin-top: 50px;
+	}
+}
+
 /*navigation SIDE BAR-----------------------------------------------------------------------------------*/
 
 /* reset */
@@ -232,13 +338,6 @@ label:focus {
 .menu-checkbox:checked + .menu
   transform: translate3d(0, 0, 0)
 
-/*MEDIA---------------------------------------------------------------------------------------------*/
-
-@media  (max-width: 500px) {
-.jumbotron {
-		display: none;
-	}
-}
 
 
 
