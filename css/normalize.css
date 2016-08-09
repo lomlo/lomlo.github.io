@@ -203,6 +203,8 @@ svg:not(:root) {
 
 figure {
   margin: 1em 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /**
